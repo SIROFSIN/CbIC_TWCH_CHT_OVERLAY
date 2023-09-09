@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let scrollAmount = 3; // Задайте количество пикселей для прокрутки (по умолчанию 100)
+    let scrollAmount = 30; // Задайте количество пикселей для прокрутки (по умолчанию 100)
 
     function scrollToUserSpecifiedAmount() {
         const noodlesWrapper = document.querySelector(".noodles-wrapper__scrollable");
